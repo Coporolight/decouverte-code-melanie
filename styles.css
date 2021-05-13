@@ -379,7 +379,7 @@ textarea {
   .timeline ul li:nth-child(even) .bubble::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent rgba(18, 157, 175, 0.8) transparent transparent;
+    border-color: transparent rgb(175, 18, 110) transparent transparent;
   }
 	.skills-content {
     flex-direction: column;
