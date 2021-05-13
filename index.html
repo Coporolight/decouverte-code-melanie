@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Site de Mélanie Duriez</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+
+
+    <script src="./scripts.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+
+
+  </head>
+  <body>
+      <header>
+          <h1>Mélanie DURIEZ</h1>
+        </header>
+
+        <section class="about">
+            <img src="images/moi236.jpg" alt="Photo de Mélanie" />
+            <h2>Présentation</h2>
+            <p>
+                Bonjour ! Je suis Mélanie Duriez une apprentie développeuse web basée en Seine et Marne.<br />
+                <a href="https://www.linkedin.com/in/mélanie-duriez-73ab8b166/" target="_blan
+                k">Apprentie développeuse web</a> en formation depuis Mai 2021, 
+                j'espère pouvoir continuer dans cette voie par la suite.
+            </p>
+
+          </section>
+
+          <section class="skills">
+
+              <h2>Compétences</h2>
+
+              <div class="skills-content">
+                  <div class="skills-column">
+                      <div class="progress-container">
+                          <span class="progress-badge">WORD</span>
+                          <div class="progress">
+                            <div class="progress-bar" style="width: 40%;"></div>
+                            <span class="progress-value">40%</span>
+                          </div>
+                        </div>
+                        <!-- Fin .progress-container -->
+
+                        <div class="progress-container">
+                            <span class="progress-badge">PHOTOSCAPE</span>
+                            <div class="progress">
+                              <div class="progress-bar" style="width: 90%;"></div>
+                              <span class="progress-value">90%</span>
+                            </div>
+                          </div>
+                          <!-- Fin .progress-container -->
+                          <div class="progress-container">
+                            <span class="progress-badge">VIRTUALDUB</span>
+                            <div class="progress">
+                              <div class="progress-bar" style="width: 40%;"></div>
+                              <span class="progress-value">40%</span>
+                            </div>
+                          </div>
+                          <!-- Fin .progress-container -->
+
+                  </div>
+                  <!-- Fin .skills-column -->
+                  <div class="skills-column">
+
+                      <div class="progress-container">
+                          <span class="progress-badge">TUMBLR</span>
+                          <div class="progress">
+                            <div class="progress-bar" style="width: 95%;"></div>
+                            <span class="progress-value">95%</span>
+                          </div>
+                        </div>
+                        <!-- Fin .progress-container -->
+
+
+                        <div class="progress-container">
+                            <span class="progress-badge">HTML</span>
+                            <div class="progress">
+                              <div class="progress-bar" style="width: 05%;"></div>
+                              <span class="progress-value">05%</span>
+                            </div>
+                          </div>
+                          <!-- Fin .progress-container -->
+                          <div class="progress-container">
+                            <span class="progress-badge">CSS</span>
+                            <div class="progress">
+                              <div class="progress-bar" style="width: 05%;"></div>
+                              <span class="progress-value">05%</span>
+                            </div>
+                          </div>
+                          <!-- Fin .progress-container -->
+
+                  </div>
+                  <!-- Fin .skills-column -->
+                </div>
+                <!-- Fin .skills-content -->
+
+          </section>
+
+          <section class="timeline">
+            <h2>Expérience</h2>
+            <ul>
+              <!-- Début expérience 1 -->
+                <li>
+                  <div class="bubble">
+                    <time> mai 2021 - aujourd'hui</time>
+                    <span>Apprentie Développeuse web</span>
+                    <br />France
+                  </div>
+                </li>
+                <!-- Fin expérience 1 -->
+                <!-- Début expérience 2 -->
+                <li>
+                  <div class="bubble">
+                    <time>dec 2019 - dec 2020</time>
+                    <span>Employée logistique - Truffaut</span>
+                    <br />Paris, France
+                  </div>
+                </li>
+                <!-- Fin expérience 2 -->
+              
+              <!-- Début expérience 3 -->
+<li>
+  <div class="bubble">
+    <time>avril 2019 - octobre 2019</time>
+    <span>Réceptionnaire Drive - Auchan </span>
+    <br />France
+  </div>
+</li>
+<!-- Fin expérience 3 -->
+
+<!-- Début expérience 4 -->
+<li>
+  <div class="bubble">
+    <time> sept 2017 - mars 2019 </time>
+    <span>Vendeuse - Primark</span>
+    <br />France
+  </div>
+</li>
+<!-- Fin expérience 4 -->
+              
+                 </ul>
+
+ </section>
+
+
+ <section class="contact">
+  <h2>Contact</h2>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21005.43203624149!2d2.8003069248631327!3d48.845261224302014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8a7fb9b29d351%3A0x1dcafc784af85334!2sBailly-Romainvilliers!5e0!3m2!1sfr!2sfr!4v1620910584047!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+  <form name="contact" method="POST" data-netlify="true">
+    <div class="row">
+      <div class="form-group">
+        <label>Nom</label>
+        <input type="text" name="name" placeholder="Votre nom" required />
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Votre email"
+          required
+        />
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Message</label>
+      <textarea
+        name="message"
+        placeholder="Votre message..."
+        required
+      ></textarea>
+    </div>
+    <button class="btn">Envoyer</button>
+  </form>
+
+
+
+</section>
+
+
+
+
+
+  </body>
+</html>
