@@ -61,7 +61,7 @@ margin-top: 12px;
 margin-bottom: 12px;
 }
 a {
-  color: #555555);
+  color: #1124d1;
   text-decoration: none;
 }
 
@@ -105,7 +105,7 @@ a {
 
 .progress-value,
 .progress-badge {
-  color: #555555;
+  color: #5e1407;
   font-size: 0.8571em;
   text-transform: uppercase;
 }
@@ -119,12 +119,12 @@ a {
 
 .progress {
   margin-top: 14px;
-	background: rgba(11, 108, 138, 0.4);
+	background: rgba(209, 196, 19, 0.4);
 }
 
 .progress-bar {
   height: 5px;
-  background: #0577ac;
+  background: #a19203;
 }
 
 /* TIMELINE
@@ -147,7 +147,7 @@ html {
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: rgba(216, 110, 163, 0.4);
+  background: #c3bed0;
   color: white;
 }
 
@@ -188,7 +188,7 @@ html {
 .timeline ul li:nth-child(odd) .bubble::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent rgb(175, 18, 110) transparent transparent;
+  border-color: transparent transparent transparent #1124d1;
 }
 
 .timeline ul li:nth-child(even) .bubble {
@@ -388,7 +388,7 @@ textarea {
   .timeline ul li:nth-child(even) .bubble::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent rgb(175, 18, 110) transparent transparent;
+    border-color: transparent rgb(67, 84, 95) transparent transparent;
   }
 	.skills-content {
     flex-direction: column;
