@@ -2,11 +2,11 @@ header {
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.418),
-      rgba(0, 0, 0, 0.418)
+        rgba(0,0,0,0.418)
     ),
     url("images/texture-1909992_1920.jpg");
   background-size: cover;
-  height: 550px;
+  height: 500px;
 	display: flex;
 	align-items: center;
   justify-content: center;
@@ -25,7 +25,7 @@ h1 {
 }
 
 body {
-  font-family: Montserrat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	margin: 0;
 }
 
@@ -61,7 +61,7 @@ margin-top: 12px;
 margin-bottom: 12px;
 }
 a {
-  color: #064975;
+  color: #555555);
   text-decoration: none;
 }
 
@@ -105,7 +105,7 @@ a {
 
 .progress-value,
 .progress-badge {
-  color: #064975;
+  color: #555555;
   font-size: 0.8571em;
   text-transform: uppercase;
 }
