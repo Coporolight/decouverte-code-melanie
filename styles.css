@@ -160,7 +160,7 @@ html {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #062d7ac5;
+  background: #0d47bbc5;
 }
 
 .timeline .bubble {
@@ -168,7 +168,7 @@ html {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #04225c;
+  background: #073ba1;
   box-sizing: border-box;
 }
 
@@ -188,7 +188,7 @@ html {
 .timeline ul li:nth-child(odd) .bubble::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent transparent transparent #04225c;
+  border-color: transparent transparent transparent #073ba1;
 }
 
 .timeline ul li:nth-child(even) .bubble {
@@ -198,7 +198,7 @@ html {
 .timeline ul li:nth-child(even) .bubble::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #04225c;
+  border-color: transparent transparent transparent #073ba1;
 }
 
 time {
