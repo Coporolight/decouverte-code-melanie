@@ -247,6 +247,13 @@ time {
 
 /* FORMATION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */ 
+h4 {
+
+  font-size: 24px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  }
+
 
 .formation {
   display: flex;
@@ -270,12 +277,26 @@ time {
   padding-left: 15px;
 }
 
-h4 {
+.formation-column {
+  flex: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
-  font-size: 24px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+.formation {	
+
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+      background: rgba(0,0,0,0.5);
+      margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
   }
+
+
 
 
 /* CONTACT
