@@ -252,30 +252,21 @@ h4 {
   font-size: 24px;
   margin-top: 12px;
   margin-bottom: 12px;
+  
+
+}
+
+  .formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 70px auto;
+    padding: 20px;
+    padding-top: 0;
   }
 
-
-.formation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 70px auto;
-  padding: 20px;
-  padding-top: 0;
-}
-
-.formation-content {
-  margin: 0 auto 70px auto;
-  padding: 20px;
-  width: 70%;
-  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
-	text-align: left;
-  display: flex;
-  padding-right: 15px;
-  padding-left: 15px;
-}
 
 .formation-column {
   flex: 50%;
@@ -289,10 +280,11 @@ h4 {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-      background: rgba(0,0,0,0.5);
+      background: #073aa173;
       margin: 0;
   padding-top: 15px;
   padding-bottom: 15px;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
   
   }
 
