@@ -347,7 +347,7 @@ text-align: center;
 
 .progress-value,
 .progress-badge {
-  color: #024870;
+  color: #700902;
   font-size: 0.8571em;
   text-transform: uppercase;
 }
@@ -361,12 +361,12 @@ text-align: center;
 
 .progress {
   margin-top: 14px;
-	background: rgba(22, 62, 240, 0.4);
+	background: rgba(209, 196, 19, 0.4);
 }
 
 .progress-bar {
   height: 5px;
-  background: #010c6e;
+  background: #a19203;
 }
 
 
