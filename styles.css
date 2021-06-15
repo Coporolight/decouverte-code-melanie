@@ -317,7 +317,7 @@ text-align: center;
   justify-content: center;
   text-align: center;
   margin: 70px auto;
-  padding: 100px;
+  padding: 20px;
   padding-top: 0;
 }
 
@@ -334,7 +334,7 @@ text-align: center;
 
 .langues-column {
   flex: 50%;
-  padding-right: 100px;
+  padding-right: 70px;
   padding-left: 15px;
 }
 
