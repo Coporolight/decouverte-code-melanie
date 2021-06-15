@@ -334,8 +334,8 @@ text-align: center;
 
 .langues-column {
   flex: 50%;
-  padding-right: 80px;
-  padding-left: 80px;
+  padding-right: 65px;
+  padding-left: 65px;
 }
 
 .progress-container {
