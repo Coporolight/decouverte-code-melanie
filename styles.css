@@ -475,6 +475,11 @@ textarea {
     padding: 15px 0;
   }
 
+  .langues-content {
+width: 100%;
+padding: 15px 0;
+  }
+
   .timeline .bubble {
     width: 250px;
   }
@@ -521,9 +526,7 @@ textarea {
   .formation-content {
 flex-direction: column;
 }
-.langues-content {
-flex-direction: column;
-}
+
 }
 
 form {
