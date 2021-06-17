@@ -521,6 +521,9 @@ textarea {
   .formation-content {
 flex-direction: column;
 }
+.langues-content {
+flex-direction: column;
+}
 }
 
 form {
