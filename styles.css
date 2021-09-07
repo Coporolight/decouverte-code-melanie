@@ -1,16 +1,24 @@
 header {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.377)),
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.377),
+      rgba(0, 0, 0, 0.377)
+    ),
     url("images/texture-1909992_1920.jpg");
   background-size: cover;
   height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
+  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+
 }
+
+
 
 h1 {
   font-size: 56px;
@@ -18,8 +26,8 @@ h1 {
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
 }
 
 .about {
@@ -34,6 +42,7 @@ body {
   padding: 20px;
   padding-top: 0;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  
 }
 
 .about img {
@@ -49,9 +58,10 @@ h2 {
 }
 
 h3 {
-  font-size: 19px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+
+font-size: 19px;
+margin-top: 12px;
+margin-bottom: 12px;
 }
 a {
   color: #1124d1;
@@ -77,7 +87,7 @@ a {
   padding: 20px;
   width: 70%;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
-  text-align: left;
+	text-align: left;
   display: flex;
   padding-right: 15px;
   padding-left: 15px;
@@ -112,7 +122,7 @@ a {
 
 .progress {
   margin-top: 14px;
-  background: rgba(209, 196, 19, 0.4);
+	background: rgba(209, 196, 19, 0.4);
 }
 
 .progress-bar {
@@ -205,6 +215,7 @@ time {
   font-weight: bold;
 }
 
+
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -236,25 +247,29 @@ time {
   opacity: 1;
 }
 
+
 /* FORMATION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */ 
 h4 {
+
   font-size: 24px;
   margin-top: 12px;
   margin-bottom: 12px;
-  text-align: center;
+text-align: center;
+
 }
 
-.formation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 70px auto;
-  padding: 20px;
-  padding-top: 0;
-}
+  .formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 70px auto;
+    padding: 20px;
+    padding-top: 0;
+  }
+
 
 .formation-column {
   flex: 50%;
@@ -262,13 +277,15 @@ h4 {
   padding-left: 15px;
 }
 
-.formation {
+.formation {	
+ 
+ 
   width: 100%;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-  background: #073aa173;
-  margin: 0;
+      background: #073aa173;
+      margin: 0;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
@@ -277,16 +294,20 @@ h4 {
   padding: 20px;
   padding-top: 35;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
-}
+  
+  }
+
 
 /* LANGUES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */ 
 
 h5 {
+
   font-size: 24px;
   margin-top: 12px;
   margin-bottom: 12px;
-  text-align: center;
+text-align: center;
+
 }
 
 .langues {
@@ -305,7 +326,7 @@ h5 {
   padding: 20px;
   width: 40%;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
-  text-align: left;
+	text-align: left;
   display: flex;
   padding-right: 15px;
   padding-left: 15px;
@@ -340,13 +361,15 @@ h5 {
 
 .progress {
   margin-top: 14px;
-  background: rgba(22, 62, 240, 0.4);
+	background: rgba(22, 62, 240, 0.4);
 }
 
 .progress-bar {
   height: 5px;
   background: #010c6e;
 }
+
+
 
 /* CONTACT
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -361,7 +384,7 @@ h5 {
 iframe {
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 100%;
+	width: 100%;
 }
 
 form {
@@ -398,7 +421,7 @@ input {
   padding: 5px;
   margin-top: 5px;
   font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 textarea {
@@ -408,12 +431,12 @@ textarea {
   width: 100%;
   padding: 5px;
   margin-top: 10px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
 }
 
 ::placeholder {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
@@ -429,6 +452,7 @@ textarea {
   font-size: 16px;
   color: white;
 }
+
 
 /* MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -452,8 +476,8 @@ textarea {
   }
 
   .langues-content {
-    width: 100%;
-    padding: 15px 0;
+width: 100%;
+padding: 15px 0;
   }
 
   .timeline .bubble {
@@ -465,10 +489,14 @@ textarea {
   }
 }
 
+
 .contact {
   margin: 30px;
   width: unset;
 }
+
+
+
 
 @media screen and (max-width: 600px) {
   h1 {
@@ -492,12 +520,13 @@ textarea {
     border-width: 8px 16px 8px 0;
     border-color: transparent transparent transparent #04225c;
   }
-  .skills-content {
+	.skills-content {
     flex-direction: column;
   }
   .formation-content {
-    flex-direction: column;
-  }
+flex-direction: column;
+}
+
 }
 
 form {
@@ -510,3 +539,8 @@ form {
 .form-group:first-of-type {
   margin-right: 0;
 }
+
+
+
+
+
